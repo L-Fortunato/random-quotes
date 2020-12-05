@@ -1,0 +1,40 @@
+#card{
+    background-color: white;
+    width: 600px;
+    transition: 1s;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#quote{
+    display: flex;
+    flex-direction: column;
+}
+
+#quote h1, h4{
+    transition: 1s;
+}
+
+#quote h4{
+    align-self: flex-end;
+}
+
+#twitter{
+    transition: 1s;
+    cursor: pointer;
+}
+
+#buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+#getQuote{
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    padding: 10px;
+    transition: 1s;
+    cursor: pointer;
+}
